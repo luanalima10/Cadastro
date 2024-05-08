@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRE-SE</title>
+</head>
+<body>
+    <!--PARA O TÍTULO E SUBTÍTULO-->
+    <div>
+        <h1>CADASTRE SUA LOJA VIRTUAL!</h1>
+        <p>Complete com informações verídicas</p>
+        <br>
+    </div>
+    <!--CRIANDO O FORMULÁRIO-->
+    <form>
+        <fieldset>
+            <div>
+                <label for="dono">Nome do proprietário:
+                </label>
+                <input type="text" name="dono" id="dono">
+            </div>
+            <div>
+                <label for="endereco">Endereço do proprietário:
+                </label>
+                <input type="text" name="endereco" id="endereco">
+            </div>
+            <div>
+                <label for="email">E-mail do proprietário:</label>
+                <input type="email" name="email" id="email">
+            </div>
+        </fieldset>
+        <!--PERGUNTA DO NÍVEL DE EXPERIÊNCIA, MARCA APENAS 1 OPÇÃO-->
+        <div>
+            <br>
+            <label>Qual o nível de experiência do proprietário sobre as lojas virtuais?
+                <br>
+            </label>
+            <label>
+                <input type="radio" name="opcao" value="critico">Nível crítico
+            </label>
+            <label>
+                <input type="radio" name="opcao" value="intermediario">Nível intermediário
+            </label>
+            <label>
+                <input type="radio" name="opcao" value="Adequado">Nível Adequado
+            </label>
+            <label>
+                <input type="radio" name="opcao" value="excelente">Nível Excelente
+            </label>
+        </div>
+        <!--PERGUNTA DO PÚBLICO-ALVO, SELECIONA APENAS 1-->
+        <div>
+            <label>Selecione o público-alvo:</label>
+            <select id="publico">
+                <option selected disabled value="SELECIONE"></option>
+                <option>Crianças</option>
+                <option>Adolescentes</option>
+                <option>Jovens-adultos</option>
+                <option>Adultos</option>
+                <option>Idosos</option>
+                <option>Todos</option>
+
+            </select>
+        </div>
+    </form>
+</body>
+</html>
