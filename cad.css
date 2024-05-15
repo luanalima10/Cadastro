@@ -43,7 +43,6 @@ fieldset.grupo .campo{
 }
 .campo input[type= "text"], .campo input[type="email"], .campo select, .campo textarea{
     padding: 0.6%;
-    border: ;
     box-shadow: 2px 2px 2px black;
     display: block;
 }
